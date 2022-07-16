@@ -1,0 +1,20 @@
+.container {
+    width: 7rem;
+    height: 7rem;
+    background-color: lightslategrey;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+    opacity: 0.7;
+    box-shadow: 0.3rem 0.3rem 1rem lightslategrey;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.container:hover {
+    opacity: 1;
+    border-radius: 4rem;
+    border: 1px solid darkslateblue;
+    cursor: pointer;
+}
