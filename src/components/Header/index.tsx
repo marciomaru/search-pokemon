@@ -25,7 +25,7 @@ export function Header({ setPokemon, setNumInicial, setNumFinal }: Props) {
                     Nome ou número do pokemon: <input
                         type="text"
                         onChange={e =>
-                            setName(e.target.value.toLowerCase())}
+                            setName(e.target.value)}
                         placeholder='Pesquisar'
                     />
                 </label>
